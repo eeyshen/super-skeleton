@@ -6,7 +6,7 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: lighten($light-grey, 6.4%);
+  background: lighten($light-grey, 10%);
   border: 1px solid $light-grey;
   border-radius: $border-radius;
 }
@@ -15,4 +15,22 @@ pre > code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre-wrap;
+}
+
+
+// Block quotes
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+blockquote {
+  padding: 1rem;
+  border-left: 2px solid $primary-color;
+
+  cite {
+    display: block;
+    color: lighten($font-color, 20%);
+    &:before {
+      content: '\2014';  // css equivalent of &mdash;
+      padding-right: 2px;
+    }
+  }
 }
