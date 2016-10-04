@@ -109,7 +109,8 @@
 
 .container:after,
 .row:after,
-.u-cf {
+.clearfix,
+.cf {
   content: "";
   display: table;
   clear: both;
