@@ -18,3 +18,16 @@
 .pull-left {
   float: left;
 }
+
+
+// Clearing
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.container:after,
+.row:after,
+.clearfix:after,
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
