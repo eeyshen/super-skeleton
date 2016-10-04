@@ -1,12 +1,12 @@
 {
-  "name": "Skeleton-Sass",
-  "version": "2.0.4",
-  "homepage": "https://github.com/whatsnewsaes/Skeleton-Sass",
+  "name": "nineball-sass",
+  "version": "0.0.1",
+  "homepage": "https://github.com/briancappello/nineball-sass",
   "authors": [
-    "Seth Coelen <scoelen89@gmail.com> (http://SethCoelen.com)"
+    "Brian Cappello <briancappello@gmail.com>"
   ],
-  "description": "The (un)official Sass Version of Skeleton (2.0.4): A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
-  "main": "scss/skeleton.scss",
+  "description": "A Responsive Boilerplate for Mobile-Friendly Development (forked from Skeleton-Sass)",
+  "main": "scss/nineball.scss",
   "keywords": [
     "skeleton",
     "sass",
@@ -21,6 +21,6 @@
     "bower_components"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.2"
+    "normalize.css": "~5.0.0"
   }
 }

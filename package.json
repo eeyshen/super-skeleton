@@ -1,16 +1,16 @@
 {
-  "name": "skeleton-scss",
-  "version": "2.0.4",
-  "description": "The (un)official Sass Version of Skeleton (2.0.4): A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
+  "name": "nineball-sass",
+  "version": "0.0.1",
+  "description": "A Responsive Boilerplate for Mobile-Friendly Development (forked from Skeleton-Sass)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WhatsNewSaes/Skeleton-Sass"
+    "url": "https://github.com/briancappello/nineball-sass"
   },
   "bugs": {
-    "url": "https://github.com/WhatsNewSaes/Skeleton-Sass/issues"
+    "url": "https://github.com/briancappello/nineball-sass/issues"
   },
-  "homepage": "https://github.com/whatsnewsaes/Skeleton-Sass",
-  "author": "Seth Coelen <scoelen89@gmail.com>  (http://sethcoelen.com/)",
+  "homepage": "https://github.com/briancappello/nineball-sass",
+  "author": "Brian Cappello <briancappello@gmail.com>",
   "keywords": [
     "skeleton",
     "sass",
@@ -19,10 +19,7 @@
     "boilerplate"
   ],
   "license": "MIT",
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-sass": "^1.2.0"
+  "dependencies": {
+    "normalize.css": "^5.0.0"
   }
 }
