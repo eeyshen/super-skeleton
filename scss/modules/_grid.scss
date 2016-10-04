@@ -56,14 +56,17 @@
   .seven.columns        { width: grid-column-width(7);  }
   .eight.columns        { width: grid-column-width(8);  }
   .nine.columns         { width: grid-column-width(9);  }
-  .ten.columns          { width: grid-column-width(10); }
-  .eleven.columns       { width: grid-column-width(11); }
-  .twelve.columns       { width: 100%; margin-left: 0;  }
 
-  .one-third.column     { width: grid-column-width(4);  }
-  .two-thirds.column    { width: grid-column-width(8);  }
+  .third.column,
+  .one-third.column     { width: 33.3 - (2*$column-margin/3); }
+  .two-thirds.column    { width: 66.6 - ($column-margin/3); }
 
-  .one-half.column      { width: grid-column-width(6);  }
+  .half.column,
+  .one-half.column      { width: 50 - ($column-margin/2);  }
+
+  .quarter.column,
+  .one-quarter.column    { width: 25 - (3*$column-margin/4);  }
+  .three-quarters.column { width: 75 - ($column-margin/4);  }
 
 
   // Offsets
@@ -83,22 +86,26 @@
   .offset-by-seven.columns     { margin-left: grid-offset-length(7);  }
   .offset-by-eight.column,
   .offset-by-eight.columns     { margin-left: grid-offset-length(8);  }
-  .offset-by-nine.column,
-  .offset-by-nine.columns      { margin-left: grid-offset-length(9);  }
-  .offset-by-ten.column,
-  .offset-by-ten.columns       { margin-left: grid-offset-length(10); }
-  .offset-by-eleven.column,
-  .offset-by-eleven.columns    { margin-left: grid-offset-length(11); }
 
-
+  .offset-by-third.column,
+  .offset-by-third.columns,
   .offset-by-one-third.column,
-  .offset-by-one-third.columns  { margin-left: grid-offset-length(4);  }
+  .offset-by-one-third.columns  { margin-left: 33.3 + ($column-margin/3);  }
   .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns { margin-left: grid-offset-length(8);  }
+  .offset-by-two-thirds.columns { margin-left: 66.6 + (2*$column-margin/3);  }
 
+  .offset-by-half.column,
+  .offset-by-half.columns,
   .offset-by-one-half.column,
-  .offset-by-one-half.column   { margin-left: grid-offset-length(6);  }
+  .offset-by-one-half.columns   { margin-left: 50 + ($column-margin/2);  }
 
+  .offset-by-quarter.column,
+  .offset-by-quarter.columns,
+  .offset-by-one-quarter.column,
+  .offset-by-one-quarter.columns { margin-left: 25 + ($column-margin/4);  }
+
+  .offset-by-three-quarters.column,
+  .offset-by-three-quarters.columns { margin-left: 75 + (3*$column-margin/4);  }
 
 }
 
