@@ -1,12 +1,12 @@
 {
-  "name": "nineball-sass",
+  "name": "super-skeleton",
   "version": "0.0.1",
-  "homepage": "https://github.com/briancappello/nineball-sass",
+  "homepage": "https://github.com/briancappello/super-skeleton",
   "authors": [
     "Brian Cappello <briancappello@gmail.com>"
   ],
   "description": "A Responsive Boilerplate for Mobile-Friendly Development (forked from Skeleton-Sass)",
-  "main": "scss/nineball.scss",
+  "main": "scss/skeleton.scss",
   "keywords": [
     "skeleton",
     "sass",
