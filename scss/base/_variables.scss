@@ -18,7 +18,8 @@ $link-color:                #1eaedb !default;
 $font-color:                #222 !default;
 
 // Typography
-$font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$heading-font-family: "Lato", Arial, sans-serif !default;
+$font-family: "Raleway", Arial, sans-serif !default;
 
 //Grid Variables
 $container-max-width: 1200px !default;
@@ -39,7 +40,7 @@ $navbar-bg-color: #ff0 !default;
 $navbar-brand-color: #000 !default;
 $navbar-brand-tld-color: #555 !default;
 $navbar-brand-font-size: $navbar-height/2 !default;
-$navbar-brand-padding-top: 3px !default;
+$navbar-brand-padding-top: 0px !default;
 
 $navbar-menu-font-size: 15px !default;
 $navbar-menu-padding-top: 3px !default;
