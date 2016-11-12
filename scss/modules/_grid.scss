@@ -20,22 +20,11 @@
 .cols {
   width: 100%;
   float: left;
-  overflow: wrap;
-}
-
-// For devices larger than 400px
-@media (#{$bp-larger-than-mobile}) {
-  .container {
-    width: $container-width-larger-than-mobile;
-    padding: 0;
-  }
+  overflow: auto;
 }
 
 // For devices larger than 550px
 @media (#{$bp-larger-than-phablet}) {
-  .container {
-    width: $container-width-larger-than-phablet;
-  }
   .col,
   .cols {
     margin-left: $column-margin;

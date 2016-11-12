@@ -31,4 +31,10 @@ form {
 
 .fixed-nav-top main {
   margin-top: $navbar-height;
+
+  // disable margin collapsing on first child of main
+  > :first-child:before {
+      content: '';
+      display: table;
+  }
 }
