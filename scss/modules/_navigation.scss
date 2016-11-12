@@ -10,6 +10,7 @@ nav {
 
   .brand,
   .menu {
+    height: $navbar-height;
     display: inline-block;
     float: left;
     &.right {
@@ -20,6 +21,7 @@ nav {
   .brand,
   a.brand {
     margin-right: 20px;
+    padding-top: $navbar-brand-padding-top;
     font-size: $navbar-brand-font-size;
 
     color: $navbar-brand-color;

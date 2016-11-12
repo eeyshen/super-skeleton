@@ -35,9 +35,11 @@ $border-radius: 4px !default;
 // Nav Bar
 $navbar-height: 50px !default;
 $navbar-bg-color: #ff0 !default;
+
 $navbar-brand-color: #000 !default;
 $navbar-brand-tld-color: #555 !default;
 $navbar-brand-font-size: $navbar-height/2 !default;
+$navbar-brand-padding-top: 3px !default;
 
 $navbar-menu-font-size: 15px !default;
 $navbar-menu-padding-top: 3px !default;
