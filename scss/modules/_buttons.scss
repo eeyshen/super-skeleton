@@ -1,6 +1,7 @@
 // Buttons
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
+.btn,
 .button,
 button {
   display: inline-block;
@@ -27,6 +28,7 @@ button {
     outline: 0;
   }
 
+  &.btn-primary,
   &.button-primary {
     color: #fff;
     background-color: $primary-color;
