@@ -41,6 +41,17 @@ button {
       border-color: $link-color;
     }
   }
+
+  &.btn-success,
+  &.button-success {
+    color: #fff;
+    background-color: $success-color;
+    border-color: $success-color;
+  }
+
+  &:disabled {
+    cursor: auto;
+  }
 }
 
 input {
