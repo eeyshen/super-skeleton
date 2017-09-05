@@ -85,3 +85,37 @@ form.horizontal {
     margin-right: 10px;
   }
 }
+
+.help {
+  display: block;
+  padding: 8px 0 4px 0;
+  font-size: 1.25rem;
+}
+
+.error {
+  color: $error-color;
+
+  input,
+  textarea,
+  select {
+    color: $error-color;
+    border-color: $error-color;
+    &:focus {
+      border: 2px solid $error-color;
+    }
+  }
+  ::-webkit-input-placeholder {
+    color: $light-error-color;
+  }
+  :-moz-placeholder {
+    color: $light-error-color;
+    opacity: 1;
+  }
+  ::-moz-placeholder {
+    color: $light-error-color;
+    opacity: 1;
+  }
+  :-ms-input-placeholder {
+    color: $light-error-color;
+  }
+}
