@@ -3,7 +3,6 @@
 
 textarea,
 select {
-  height: $button-height;
   padding: 6px 10px; // The 6px vertically centers text on FF, ignored by Webkit
   background-color: #fff;
   border: 1px solid lighten($border-color, 8.8%);
@@ -14,6 +13,10 @@ select {
     border: 1px solid $primary-color;
     outline: 0;
   }
+}
+
+select {
+  height: $button-height;
 }
 
 textarea {
