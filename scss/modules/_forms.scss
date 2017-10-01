@@ -65,6 +65,10 @@ fieldset {
   border-width: 0;
 }
 
+fieldset > label {
+  font-weight: normal;
+}
+
 input {
   &[type="checkbox"],
   &[type="radio"] {
