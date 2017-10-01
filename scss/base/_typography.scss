@@ -24,30 +24,3 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0;       }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.8rem; }
 }
-
-///////////////////////////////////////////////////////////////////////
-// this hackery makes in-page anchor jumps work correctly
-// https://css-tricks.com/hash-tag-links-padding/
-//
-h1, h2, h3, h4, h5, h6 {
-  &:before {
-    width: 0;
-    display: block;
-    content: ' ';
-    visibility: hidden;
-  }
-}
-
-h1:before {
-  margin-top: -5rem * 1.5;
-  height: 5rem * 1.5;
-}
-h2:before {
-  margin-top: -4.2rem * 1.5;
-  height: 4.2rem * 1.5;
-}
-h3:before {
-  margin-top: -4.2rem * 1.5;
-  height: 4.2rem * 1.5;
-}
-///////////////////////////////////////////////////////////////////////
