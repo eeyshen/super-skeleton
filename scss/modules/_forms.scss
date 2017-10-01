@@ -83,6 +83,11 @@ label > .label-body {
   font-weight: normal;
 }
 
+fieldset.required:after,
+label.required:after {
+  content: ' *';
+}
+
 form.horizontal {
   height: $button-height;
   line-height: $button-height;
