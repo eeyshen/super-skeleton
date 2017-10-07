@@ -31,10 +31,6 @@ nav {
     .tld {
       font-weight: normal;
       color: $navbar-brand-tld-color;
-      &:before {
-        content: '.';
-        font-weight: bold;
-      }
     }
 
     &:hover {
