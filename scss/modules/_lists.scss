@@ -30,3 +30,16 @@ ol {
 li {
   margin-bottom: 1rem;
 }
+
+dl {
+  dt {
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+  }
+  dd {
+    display: block;
+    margin: 0;
+  }
+}
