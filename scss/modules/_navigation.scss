@@ -2,15 +2,13 @@
 // ------------------------------------------
 
 nav {
-  height: $navbar-height;
+  height: $navbar-height + 1;
   line-height: $navbar-height;
-  overflow: hidden;
 
   background: $navbar-bg-color;
 
   .brand,
   .menu {
-    height: $navbar-height;
     display: inline-block;
     float: left;
     &.right {
@@ -51,6 +49,7 @@ nav {
     font-size: $navbar-menu-font-size;
     &::first-letter {
       font-size: $navbar-menu-font-size + 2;
+      line-height: 48px;
     }
 
     &.active {
